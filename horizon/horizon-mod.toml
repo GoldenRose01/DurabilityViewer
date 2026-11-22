@@ -1,0 +1,14 @@
+id = "durabilityviewer"
+name = "Durability Viewer"
+version = "1.13.1"
+description = "Shows durability of your armor and tools on the HUD."
+authors = ["Giselbaer", "fanta"]
+license = "MIT"
+# A wasm mod: Rust in src/, built to mod.wasm by `cargo horizon-mod build --wasm` against the SDK build Cargo.toml pins, beside data/ and assets/.
+api = "0.2"
+side = "client"
+capabilities = ["registries"]
+
+[wasm]
+sha512 = "3245835c4d32bb162bd6d7a733455282aa249be7ad60212cbf6d8123a010f994997b214deccb5f6c51107a0b3e97a8cd1a426aecff6778296814aab38fd802a5"
+toolchain = "1.99.1 58cf8f9c35b355199727627d07ae34a4e2846d67"
